@@ -1,0 +1,5 @@
+# This file might already contain other configurations.
+# The code will append additional role-based configurations at the end.
+
+# Example content before appending role-specific configurations
+OS::TripleO::ComputeDefault::Ports::ExternalPort: /usr/share/openstack-tripleo-heat-templates/network/ports/external_from_pool.yaml

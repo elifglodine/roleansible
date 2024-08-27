@@ -1,0 +1,9 @@
+Compute**RoleName**Parameters:
+  IsolCpusList: "2-23,26-47"
+  KernelArgs: "intel_iommu=on tsx=off default_hugepagesz=1GB hugepagesz=1G hugepages=352 isolcpus=2-23,26-47"
+  NovaVcpuPinSet: "2-23,26-47"
+  NovaComputeCpuDedicatedSet: ""
+  NovaReservedHostMemory: 32768
+  NovaComputeCpuSharedSet: "0-1,24-25"
+  NeutronBridgeMappings:
+    - datacentre:br-vnfmgt

@@ -1,0 +1,8 @@
+---
+- name: Run Python script to process YAML files
+  hosts: localhost
+  tasks:
+    - name: Execute Python script to process role name
+      command: python3 src/main/java/com/example/role_ansible/script.py "{{ role_name }}"
+      vars:
+        role_name: "{{ role_name }}"
